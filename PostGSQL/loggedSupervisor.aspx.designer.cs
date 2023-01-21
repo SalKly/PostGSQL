@@ -24,15 +24,6 @@ namespace PostGSQL
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// viewProfile control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink viewProfile;
-
-        /// <summary>
         /// listStudents control.
         /// </summary>
         /// <remarks>
@@ -58,6 +49,15 @@ namespace PostGSQL
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button listStudentPublications;
+
+        /// <summary>
+        /// GridView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
         /// addDefense control.
@@ -87,12 +87,21 @@ namespace PostGSQL
         protected global::System.Web.UI.WebControls.HyperLink evaluatePR;
 
         /// <summary>
-        /// cancelThesis control.
+        /// ThesisSN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink cancelThesis;
+        protected global::System.Web.UI.WebControls.TextBox ThesisSN;
+
+        /// <summary>
+        /// cancel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cancel;
     }
 }
